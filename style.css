@@ -3,35 +3,43 @@
 body,html {padding 0;margin:0}
 
 body{
+  
+    background-color:	#f0ffff ; 
+  margin: 0;
+  padding: 0;
+ 
   backgroung:#8fbc8f;font-family:verdana;}
  
 p{
-  color:#696969; font-size: 15px
+  color:#696969; font-size: 30px
    }
 a{ color:#228b22; text-decoration.none; font-family:Arial}
 .img-res{width:60%; height:auto;}
 
-.logo{text-align:center;width 100%; display:block; font-size:20px;}
+.logo{text-align:center;width 100%; display:block; font-size:80px;}
 
-h1 {color:green}
-h2{color:green}
-h3 {color:green}
+h1 {color:	#5f9ea0}
+h2{color:	#5f9ea0}
+h3 {color:	#5f9ea0}
 
-.container{pudding:19px}
+.container{pudding:90px}
 
-header{background-color:#8fbc8f} padding:30px 15px 10px; margin:20px; border 2px; darck green}
+header{background-color:#8fbc8f} padding:50px 25px 15px; margin:20px; border 2px; dark green}
 .evi{color:grey}
 
 #MENù {text-align:center}
 #MENù li {display:inline}
-#MENù li {border:1px solid white; margin:10px}
+#MENù li {border:4px solid white; margin:70px}
 
 .grid{display:flex; flex-wrap;}
 .colonna{width:100%; padding:20px}
-{border:1px solid white}
+{border:4px solid white}
 
 @media (mid-width:768px) and (max-width:1023px)
   .colonna{width:100%;}
  }
-footer {background:#e6e6fa; padding:20px}
+footer {background: ##fffacd; padding:20px}
 footer p{color:green; font-size:9px; font_style: Arial}
+
+
+
