@@ -1,12 +1,33 @@
 <!DOCTYPE html>
 <html lang="it" dir"ltr">
 <head>
-   <link rel="stylesheet" href="style.css" />
-    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css" />
+  <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="FULMINI COMPANY">
+  <meta name="keywords" content="compagnia prodotti green">
+  <meta name="author" content="Martina Basile">
+  <title>FULMINI COMPANY</title>
+  <link rel="icon" type="image/x-icon" href="/immagini/favicon.png">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+
+</head>
+
+<header>
+
+    </header>
+
+<body>
+  <div id="cookie-notice" class="cookie-notice">
+    <span class="cookie-message">Questo sito utilizza i cookie per migliorare l'esperienza dell'utente. Accetta per continuare.</span>
+    <button id="accept-cookie" class="accept-cookie">Accetta</button>
+  </div>
     <title>FULMINI COMPANY</title>
     </head>
 <body>
+    
     <header>
       <a href"index.html" class="logo"> FULMINI</a> 
   
@@ -62,13 +83,98 @@
       <div class="">
       </div>
       
-      
+       </section>
+
+  <!--dove siamo-->
+  <section class="dove-trovarci">
+    <h3 id="luogo"> <i class="fa-solid fa-map-pin"></i> &nbsp; Dove trovarci </h3>
+
+    <br />
+
+    <div id="mappa" style="width: 100%; height: auto;">
+      <iframe src="https://www.google.it/maps/place/Via+Kennedy,+10042+Nichelino+TO/@44.9899813,7.6533978,17z/data=!3m1!4b1!4m6!3m5!1s0x4788126a41074869:0xc16cc6ac3c92d5c1!8m2!3d44.9899813!4d7.6559727!16s%2Fg%2F119x69y8c?entry=ttu" title="dove trovarci" defer width="100%" height="auto" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+
+    <!--dove siamo fine-->
+
+  </section>
+
+  <footer>
+     <h2>
+      <a href="https://www.instagram.com/">
+        <i class="fa-brands fa-instagram"></i>
+      </a>
+      &nbsp;&nbsp;
+      <a href="https://www.facebook.com/fulmini.company/?locale=it_IT">
+        <i class="fa-brands fa-facebook-f"></i>
+      </a>
+    </h2>
+    <h4> <br />
+      tel. +39 111 1111111
+      <br />
+      info.@fulminicompany.it
+      <br />
+    </h4>
+    <h6> Copyright &copy; 2023</h6>
+  </footer>
+
+  <script>
+    // Funzione per mostrare l'avviso dei cookie
+    function showCookieNotice() {
+      document.getElementById('cookie-notice').style.display = 'block';
+    }
+    // Funzione per nascondere l'avviso dei cookie
+    function hideCookieNotice() {
+      document.getElementById('cookie-notice').style.display = 'none';
+    }
+    // Aggiungi un ascoltatore di eventi al pulsante "Accetta"
+    document.getElementById('accept-cookie').addEventListener('click', hideCookieNotice);
+    // Mostra l'avviso dei cookie quando la pagina si carica
+    document.addEventListener('DOMContentLoaded', showCookieNotice);
+    //checkbox
+    document.getElementById('submit-btn').addEventListener('click', function(event) {
+      event.preventDefault(); // Evita il comportamento predefinito del pulsante di invio
+      var checkbox = document.getElementById('privacy-checkbox');
+      if (checkbox.checked) {
+        // Azioni da eseguire se il checkbox è selezionato
+        // Esempio: invio del form
+        console.log('Form inviato con successo!');
+      } else {
+        // Avviso se il checkbox non è selezionato
+        alert('Devi accettare l\'informativa sulla privacy per poter inviare il form.');
+      }
+    });
+    // Funzione per tornare in alto
+    function scrollToTop() {
+      window.scrollTo({
+        top: 0,
+        behavior: 'smooth'
+      });
+    }
+    // Mostra o nascondi il pulsante in base alla posizione dello scroll
+    window.addEventListener('scroll', function() {
+      var button = document.getElementById('back-to-top-button');
+      if (window.scrollY > 200) {
+        button.style.display = 'block';
+      } else {
+        button.style.display = 'none';
+      }
+    });
+  </script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+
+  <button id="back-to-top-button" onclick="scrollToTop()">Menu</button>
+
+</body>
+
+</html>
       <p> indirizzo: Viale Kennedy 17, Torino (TO)</p>
-      <p> email: fulminicompany@gmail.com </p>
+      <p> email: info@fulminicompany.it</p>
 <p>P.IVA 1111 111 111</p>
       <p>FAQ</p>
        <p>servizi</p>
-       <p>cotatti</p>
+       <p>contatti</p>
     <p>privacy policy</p>
        <p>termini e condizioni</p>
        <p>2023 fulmini company</p>
