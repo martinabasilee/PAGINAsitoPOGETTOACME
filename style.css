@@ -3,12 +3,6 @@
 body,html {padding 0;margin:0}
 
 body{
-
-*{box-sizing:border-box;}
-
-body,html {padding 0;margin:0}
-
-body{
   
  
  
@@ -218,5 +212,4 @@ footer {
   nav li {
     margin: 10px 0;
   }
-
 
