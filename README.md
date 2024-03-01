@@ -2,7 +2,7 @@
 progetto esame Martina Basile
 pagina HTML5 Responsitive
 
-sviluppo sito per azienda pannelli fotovoltaici
+sviluppo sito per azienda che si occupa di pannelli fotovoltaici
 Piattaforme utilizzate:
 -Codepen
 -Github
