@@ -7,6 +7,7 @@ Piattaforme utilizzate:
 -Codepen
 -Github
 -Netlify
+-Chatgpt
 
 ACME Novara 2022/2023
 
